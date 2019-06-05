@@ -1,0 +1,35 @@
+{
+  "name": "@frosti/eslint-config-base",
+  "version": "0.1.0",
+  "description": "Frosti ESLint Base Config",
+  "author": "Jesse Weed <code@jesseweed.com>",
+  "license": "MIT",
+  "homepage": "http://frosti.js.org",
+  "repository": "https://github.com/frostijs/eslint-config-base",
+  "bugs": "https://github.com/frostijs/eslint-config-base/issues",
+  "engines": {
+    "node": "10.15.x"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c ./rollup.config.js"
+  },
+  "main": "./dist/eslint-config-base.cjs.js",
+  "module": "./dist/eslint-config-base.esm.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.3.x",
+    "eslint-config-airbnb-base": "^13.1.x",
+    "rollup": "^1.12.x",
+    "rollup-plugin-eslint": "^6.0.x",
+    "rollup-plugin-babel-minify": "^8.0.x",
+    "eslint-plugin-import": "^2.17.x"
+  },
+  "peerDependencies": {
+    "eslint": "^5.3.x",
+    "eslint-config-airbnb-base": "^13.1.x",
+    "rollup": "^1.12.x",
+    "rollup-plugin-eslint": "^6.0.x",
+    "rollup-plugin-babel-minify": "^8.0.x",
+    "eslint-plugin-import": "^2.17.x"
+  }
+}
