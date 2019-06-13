@@ -1,3 +1,3 @@
 # Frosti ESLint
 
-ESLint base used by frosti boilerplates
+ESLint base configuration used by [Frosti boilerplates](https://github.com/frostijs/cli).

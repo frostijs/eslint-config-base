@@ -5,7 +5,7 @@ const plugins = [eslint(), minify()];
 
 export default [
   {
-    input: 'index.js',
+    input: 'src/eslint.js',
     output: [
       {
         file: 'dist/eslint-config-base.esm.js',

@@ -1,5 +1,8 @@
 export default {
-  extends: ['eslint-config-airbnb-base'],
+  extends: [
+    'eslint-config-airbnb-base' // depends on: eslint-plugin-import
+  ],
+  parser: 'babel-eslint',
   env: {
     browser: true,
     node: true

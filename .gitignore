@@ -1,17 +1,28 @@
-# Logs
+# * Files
 *.log
 npm-debug.log*
+node_modules
 
-# Dotfiles
+# . Files
 .DS_Store
 *.cache
 *.pem
 
-# FIREBASE
-.firebase
-**/.firebaserc
+# ENV Files
+.env
+.env.development
+.env.development.local
+.env.local
+.env.test.local
+.env.test
+.env.production
+.env.production.local
 
-# Directories
+# Build Files
 dist
 coverage
-node_modules
+
+
+# HOSTING
+.firebase
+**/.firebaserc
