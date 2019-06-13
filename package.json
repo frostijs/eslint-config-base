@@ -1,6 +1,6 @@
 {
   "name": "@frosti/eslint-config-base",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Frosti ESLint Base Config",
   "author": "Jesse Weed <code@jesseweed.com>",
   "license": "MIT",
