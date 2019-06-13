@@ -8,7 +8,6 @@ export default {
     node: true
   },
   rules: {
-    'no-console': 0,
     'array-callback-return': 0,
     'comma-dangle': 0,
     'padded-blocks': 0,
